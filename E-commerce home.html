@@ -1,0 +1,353 @@
+
+
+   <!DOCTYPE html>
+<html>
+    <head>
+        <title>Batman</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <style>
+
+        body,html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+	max-width:1000px;
+}
+
+
+#header {
+    background-color:#000;
+    color:#fff;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+
+   
+}
+
+
+
+h3{
+    font-weight: 900;
+}
+
+.logo{
+    float: left;
+ height: 50px;
+ padding: 15px;
+ font-size: 20px;
+ font-weight: bold;
+    
+    
+}
+
+.container {
+    padding:20px;
+    margin: auto;
+	width:100%;
+    overflow-x: hidden;
+}
+nav { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden; 
+} 
+
+li> a 
+{ 
+    display: block; 
+    color: #666; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    float: right; 
+}
+
+#background_image {    
+    height: 350px;
+    padding-top: 50px; 
+    background: url(./images/intro-bg_1.jpg);
+    color: #fff;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+
+
+#image{
+    float:left;
+    padding:0px 20px 20px 0px;
+}
+
+
+#content {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 450px;
+    padding:30px 20px;
+    margin-top:50px;
+}
+
+#content h2{
+	font-size:16px;
+	font-weight: normal;
+}
+
+
+img{
+    max-width: 100%; 
+    height: auto;
+    vertical-align: middle;
+}
+
+#identity {
+    overflow: auto;
+}
+
+.thumbnail {
+    width:30%;
+ display: block;
+ padding: 4px;
+ margin-bottom: 20px;
+ line-height: 1.42857143;
+ background-color: #fff;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ float:left;
+ margin-left:1%
+}
+
+input[type="text"] {
+  padding: 14px 70px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+input[type="submit"] {
+	border: none;
+	background-color: #26211f;
+    color: white;
+    font-size: 16px;
+    margin: 4px -4px;
+	padding: 16px 40px;
+}
+
+
+
+.foot{
+    padding: 5px 0;
+    background-color: black;
+    color:white;
+    border-top: 1px solid;
+    margin: auto;
+}
+
+footer p {
+	text-align: center;
+}
+        </style>
+    </head>
+    <body class="container">
+        <div id="header">
+            <a href="#" class="logo">
+                <h5 style="color:#fff;;font-size: 60%" >Life Store</h5>
+    
+</a>
+            <nav> 
+				<li><a href="#movies">Signup</a></li>
+                <li><a href="#identity">Login</a></li> 
+         
+            </nav>
+        </div>
+	<div>
+        <div id="background_image">       
+            <center>
+                <div id="content">
+                    <h1>We sell lifestyle.</h1>
+                    <h2>Flat 40% off on premium brands </h2>
+                    
+                    <button type="button" style="background-color:red;color: white">Shop Now</button>
+                    
+                </div>
+            </center><br>
+            <br>
+        </div>
+
+       <!--     <div id="Products"> 
+              
+                <div class="thumbnail" > 
+                    <img src="./img/1.jpg" alt=" "  class="img-thumbnail"/><br>
+                    <h3> Cannon EOS<br></h3> <h5>Price:Rs.36000.00</h5><br>
+                    <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/2.jpg" alt=" "  class="img-thumbnail"/><br>
+                    <h3> Sony DSLR <br></h3> <h5>Price:Rs. 40,000.00</h5><br>
+                     <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/3.jpg" alt=" "  class="img-thumbnail"/><br>
+                    <h3> Sony DSLR<br></h3> <h5>Price:Rs. 50,000.00</h5><br>
+                    <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/4.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3> Olympus DSLR<br></h3> <h5>Price:Rs.80,000.00</h5><br>
+                    <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/5.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3>Titan Model #301<br></h3> <h5>Price:Rs. 13000.00</h5><br>
+                     <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/6.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3> Titan Model #201<br></h3> <h5>Price:Rs. 3000.00</h5><br>
+                     <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/7.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3> HMT Milan<br></h3> <h5>Price:Rs.8000.00</h5><br>
+                     <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/8.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3>Faber Luba #111<br></h3> <h5>Price:Rs. 18000.00</h5><br>
+                    <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/9.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3>H&W<br></h3> <h5>Price:Rs.800.00</h5><br>
+                     <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/10.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3> Luis phill<br></h3> <h5>Price:Rs. 1000.00</h5><br>
+                        <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail">
+                    <img src="./images/11.jpg" alt="Bruce Wayne"  /><br>
+                    <h3>John Zokk<br> </h3><h5>Price:Rs. 1500.00</h5><br>
+                        <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail">
+                    <img src="./images/12.jpg" alt="Bruce Wayne"  /><br>
+                    <h3> Jhalsani<br> </h3><h5>Price:Rs. 1300.00</h5><br>
+                       <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                
+            </div>      -->
+       </div>
+        <div id="Products"> 
+              
+                <div class="thumbnail" > 
+                    <img src="./img/1.jpg" alt=" "  class="img-thumbnail"/><br>
+                    <h3> Cannon EOS<br></h3> <h5>Price:Rs.36000.00</h5><br>
+                    <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/2.jpg" alt=" "  class="img-thumbnail"/><br>
+                    <h3> Sony DSLR <br></h3> <h5>Price:Rs. 40,000.00</h5><br>
+                     <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/3.jpg" alt=" "  class="img-thumbnail"/><br>
+                    <h3> Sony DSLR<br></h3> <h5>Price:Rs. 50,000.00</h5><br>
+                    <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/4.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3> Olympus DSLR<br></h3> <h5>Price:Rs.80,000.00</h5><br>
+                    <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/5.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3>Titan Model #301<br></h3> <h5>Price:Rs. 13000.00</h5><br>
+                     <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/6.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3> Titan Model #201<br></h3> <h5>Price:Rs. 3000.00</h5><br>
+                     <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/7.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3> HMT Milan<br></h3> <h5>Price:Rs.8000.00</h5><br>
+                     <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/8.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3>Faber Luba #111<br></h3> <h5>Price:Rs. 18000.00</h5><br>
+                    <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/9.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3>H&W<br></h3> <h5>Price:Rs.800.00</h5><br>
+                     <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail" > 
+                    <img src="./img/10.jpg" alt="Bruce Wayne"  class="img-thumbnail"/><br>
+                    <h3> Luis phill<br></h3> <h5>Price:Rs. 1000.00</h5><br>
+                        <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail">
+                    <img src="./images/11.jpg" alt="Bruce Wayne"  /><br>
+                    <h3>John Zokk<br> </h3><h5>Price:Rs. 1500.00</h5><br>
+                        <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                <div class="thumbnail">
+                    <img src="./images/12.jpg" alt="Bruce Wayne"  /><br>
+                    <h3> Jhalsani<br> </h3><h5>Price:Rs. 1300.00</h5><br>
+                       <button type="button" style="background-color:blue;color:white" >Add to cart</button>
+
+                </div>
+                
+            </div>
+            <div class="foot">  
+        <footer>
+            <p>“Copyright © Lifestyle Store. All Rights 
+Reserved | Contact Us: +91 90000 00000”. </p>	
+        </footer>
+          </div>
+    </body>
+</html>
+ 
